@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/helloh">
+    <Button
+        android:id="@+id/torich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me"/>
+    <TextView
+        android:id="@+id/richnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Hello Hello Hello Hello yo!"
+        />
+</LinearLayout>

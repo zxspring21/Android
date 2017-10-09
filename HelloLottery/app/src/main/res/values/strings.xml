@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloLottery</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">歡迎富爸爸</string>
+    <string name="title_activity_welocme">歡迎富爸爸</string>
+</resources>

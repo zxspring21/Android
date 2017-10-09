@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+
+    >
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="統計目前人數 : "
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:height="50dp"
+        android:editable="false"
+        android:elegantTextHeight="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:height="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人數+1"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人數-1"
+        android:id="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按鈕鎖定"
+        android:id="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人數清除"
+        android:id="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+</RelativeLayout>
